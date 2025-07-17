@@ -1,12 +1,14 @@
-# CSS Starter
+# Démarreur CSS
 
-The CSS Starter contains components and patterns for building pure CSS UI.
-It is not a CSS framework!
+Le démarreur CSS contient des composants et des modèles pour créer une interface utilisateur CSS pure.
+Ce n'est pas un cadre {framework} CSS !
 
-To build a site with the CSS starter, start from scratch with only a [reset](http://meyerweb.com/eric/tools/css/reset/)
-and a blank CSS file.
-Build your styles as you build your markup.
-Pull styles, markup, and patterns from the starter as you need them.
-As your styles differ from the starter styles, modify the styles rather than overriding them.
+Pour créer un site avec le démarreur CSS, commencez à zéro avec seulement un [reset](http://meyerweb.com/eric/tools/css/reset/)
 
-Read more and see it in action at [starterapp.style](https://www.starterapp.style/).
+Et un fichier CSS vierge.
+
+Construisez vos styles au fur et à mesure que vous construisez votre balisage.
+Tirez les styles, le balisage et les motifs du démarreur selon vos besoins.
+Comme vos styles diffèrent des styles de démarrage, modifiez les styles plutôt que de les surmoder.
+
+En savoir plus et le voir en action sur [starterapp.style](https://www.starterapp.style/).
