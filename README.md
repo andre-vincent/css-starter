@@ -11,4 +11,4 @@ Construisez vos styles au fur et à mesure que vous construisez votre balisage.
 Tirez les styles, le balisage et les motifs du démarreur selon vos besoins.
 Comme vos styles diffèrent des styles de démarrage, modifiez les styles plutôt que de les surmoder.
 
-En savoir plus et le voir en action sur [starterapp.style](https://www.starterapp.style/).
+En savoir plus et le voir en action sur [starterapp.style](https://andre-vincent.github.io/css-starter/).
