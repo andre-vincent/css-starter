@@ -404,19 +404,21 @@ Ce n'est pas un cadre <em>(framework)</em> CSS !
         <h1>Info-bulles</h1>
 
         <p>
-            <a href="javascript:{}" data-tooltip="Voici quelques informations supplémentaires à ce sujet.">Survolez-moi</a> pour afficher l'info-bulle.
+            <a href="javascript:{}" data-tooltip="Voici quelques informations supplémentaires à ce sujet.">
+                Survolez-moi
+            </a> pour afficher l'info-bulle.
         </p>
 
         <p>
             <a href="javascript:{}"
-               data-tooltip="Here is some additional info. What do you think of it? I'd say it's very nice.">
-                Hover over me
-            </a> to see a tooltip with a ton of text.
+               data-tooltip="Voici quelques informations supplémentaires à ce sujet.">
+                Survolez-moi
+            </a> Pour voir une infobulle avec une tonne de texte.
         </p>
     </section>
 
     <section id="cards">
-        <h1>Cards</h1>
+        <h1>Cartes</h1>
 
         <ul class="card-list">
             <li class="card">
@@ -455,24 +457,24 @@ Ce n'est pas un cadre <em>(framework)</em> CSS !
     </section>
 
     <section id="buttons">
-        <h1>Buttons</h1>
+        <h1>Boutons</h1>
 
         <fieldset>
-            <button>Primary</button>
-            <button class="loading">Primary</button>
+            <button>Primaire</button>
+            <button class="loading">Primaire</button>
             <button>
                 <svg>
                     <use xlink:href="images/icons.svg#table"></use>
                 </svg>
-                Primary
+                Primaire
             </button>
-            <button class="secondary">Secondary</button>
-            <button class="secondary loading">Secondary</button>
+            <button class="secondary">Secondaire</button>
+            <button class="secondary loading">Secondaire</button>
             <button class="secondary">
                 <svg>
                     <use xlink:href="images/icons.svg#account"></use>
                 </svg>
-                Secondary
+                Secodaire
             </button>
             <button class="alert">Alert</button>
             <button class="alert loading">Alert</button>
@@ -480,7 +482,7 @@ Ce n'est pas un cadre <em>(framework)</em> CSS !
                 <svg>
                     <use xlink:href="images/icons.svg#dialog"></use>
                 </svg>
-                Alert
+                Alerte
             </button>
         </fieldset>
     </section>
@@ -488,51 +490,51 @@ Ce n'est pas un cadre <em>(framework)</em> CSS !
         <h1>Code</h1>
 
         <p>
-            Code can be displayed inline with the <code>&lt;code&gt;</code> tag, or in a block
+            Le code peut être affiché en ligne avec la balise <code>&lt;code&gt;</code>, ou dans un bloc
         </p>
 
-        <pre><code>like this,
-with &lt;pre&gt; and &lt;code&gt;</code></pre>
+        <pre><code>Comme ça, avec &lt;pre&gt; et &lt;code&gt;</code></pre>
     </section>
 
     <section id="toggles">
-        <h1>Toggles</h1>
+        <h1>Bascules</h1>
 
         <p>
-            Toggles should be used for actions that take effect on click, as opposed to checkboxes, which should be used
-            for actions that take effect when a form is submitted.
+            Les bascules doivent être utilisées pour les actions qui prennent effet au clic, 
+            par opposition aux cases à cocher, qui doivent être utilisées
+            pour les actions qui prennent effet lorsqu’un formulaire est soumis.
         </p>
 
         <fieldset>
             <label class="toggle">
                 <input type="checkbox" name="turn-it-up-to-eleven">
-                Turn it up to eleven
+                Allumez-le à onze
             </label>
         </fieldset>
     </section>
 
     <section id="flash-messages">
-        <h1>Flash messages</h1>
+        <h1>Messages flash</h1>
 
         <fieldset>
-            <button onclick="flash('This is a flash message')">Display message</button>
-            <button onclick="flash('This is an alert message', true)" class="alert">Display alert</button>
+            <button onclick="flash('This is a flash message')">Afficher le message</button>
+            <button onclick="flash('This is an alert message', true)" class="alert">Afficher l’alerte</button>
         </fieldset>
     </section>
 
     <section id="accordions">
-        <h1>Accordions</h1>
+        <h1>Accordéons</h1>
 
         <p>
-            If a group of <code>&lt;details&gt;</code> elements all have the same <code>name</code> attribute, most
-            browsers will only allow one of them to be open at a time.
-            Firefox <a href="https://caniuse.com/mdn-html_elements_details_name">doesn't support this</a>, but it's
-            supported by most other browsers, and degrades relatively gracefully.
+            Si un groupe d’éléments <code>&lt;details&gt;</code> ont tous le même attribut <code>name</code>, 
+            la plupart des navigateurs n’autoriseront qu'un seul d’entre eux à être ouvert à la fois.
+            Firefox <a href="https://caniuse.com/mdn-html_elements_details_name">ne prend pas en charge cela</a>, 
+            mais c'est pris en charge par la plupart des autres navigateurs, et se dégrade relativement gracieusement.
         </p>
 
         <details name="accordion-demo">
             <summary>
-                This is an accordion summary
+                Ceci est le titre de l'accordéon
             </summary>
             <p>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce consequat, enim id efficitur porta, diam
@@ -544,7 +546,7 @@ with &lt;pre&gt; and &lt;code&gt;</code></pre>
 
         <details name="accordion-demo">
             <summary>
-                This is another accordion summary
+                Ceci est un autre titre d'accordéon
             </summary>
             <ul class="bulleted">
                 <li>Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</li>
@@ -555,27 +557,29 @@ with &lt;pre&gt; and &lt;code&gt;</code></pre>
     </section>
 
     <section id="theming">
-        <h1>Theming</h1>
+        <h1>Thème</h1>
 
         <p>
-            The <a href="./css/theme.css">theme.css</a> file contains colors, icons, and other variables that make up
-            this site's theme.
+Le fichier <a href="./css/theme.css">theme.css</a> contient des couleurs, des icônes et d'autres variables 
+            qui forment le thème de ce site.
         </p>
 
         <h2>Variables</h2>
 
         <p>
-            Theme variables are defined on <code>:root</code> so they can be used in all elements.
-            Color variables are at the top of the <code>:root</code> styles. These define all colors to be used in the
-            CSS files. Color variables must only be used in the theme file, and should not be imported from other CSS
-            files.
+            Les variables de thème sont définies sur <code>:root</code> afin qu'elles puissent être utilisées dans tous 
+            les éléments. Les variables de couleur sont en haut des styles <code>:root</code>. 
+            Ceux-ci définissent toutes les couleurs à utiliser dans les fichiers CSS. Les variables de couleur 
+            ne doivent être utilisées que dans le fichier de thème et ne doivent pas être importées d'autres fichiers CSS.
+
+Fichiers.
         </p>
 
         <p>
-            Below the color variable we define variables like <code>--text-color</code> and <code>--border-color</code>
-            that we intend to use in other CSS files. These variables should reference color variables, and define our
-            default theme. We can define an alternate theme (with <code>@media (prefers-color-scheme: dark)</code>,
-            perhaps) by overriding these variables.
+            Sous la variable de couleur, nous définissons des variables comme <code>--text-color</code> et <code>--border-color</code>
+            que nous avons l'intention d'utiliser dans d'autres fichiers CSS. Ces variables doivent faire référence aux variables 
+            de couleur et définir notre thème par défaut. Nous pouvons définir un thème alternatif 
+            (avec <code>@media (prefers-color-scheme : dark)</code>, peut-être) en remplaçant ces variables.
         </p>
 
         <pre><code>:root {
@@ -583,7 +587,7 @@ with &lt;pre&gt; and &lt;code&gt;</code></pre>
     --white: #EEEEEE;
     --black: #333333;
 
-    /* Default theme variables */
+    /* Variables de thème par défaut */
     --text-color: var(--black);
     --background-color: var(--white);
 }
@@ -596,11 +600,11 @@ with &lt;pre&gt; and &lt;code&gt;</code></pre>
     }
 }</code></pre>
 
-        <h2>Browser theme</h2>
+        <h2>Thème du navigateur</h2>
 
         <p>
-            Set the <code>accent-color</code> property on the <code>html</code> tag so checkboxes and outlines match
-            your site's theme.
+            Définissez la propriété <code>accent-color</code> sur la balise <code>html</code> afin 
+            que les cases à cocher et les contours correspondent au thème de votre site.
         </p>
 
         <pre><code>html {
@@ -608,8 +612,8 @@ with &lt;pre&gt; and &lt;code&gt;</code></pre>
 }</code></pre>
 
         <p>
-            Add a meta tag that sets the theme color to the <code>head</code> of your document to style browser chrome
-            when a user visits your site.
+            Ajoutez une balise méta qui définit la couleur du thème sur la <code>tête</code> de votre document 
+            pour styliser le navigateur chrome lorsqu'un utilisateur visite votre site.
         </p>
 
         <pre><code>&lt;meta name="theme-color" content="#196EC2"/&gt;</code></pre>
@@ -619,21 +623,22 @@ with &lt;pre&gt; and &lt;code&gt;</code></pre>
         <h1>Icons</h1>
 
         <p>
-            Use SVG icons whenever possible and practical. They can scale to any size, accept
-            CSS styles, and are usually smaller that other image formats.
+            Utilisez les icônes SVG chaque fois que c'est possible et pratique. Ils peuvent évoluer à 
+            n'importe quelle taille, accepter les styles CSS et sont généralement plus petits que les autres formats d'image.
         </p>
 
         <h2>Variables</h2>
         <p>
-            To use our theme's CSS variables in SVG icons, we have to include SVGs into the page a bit differently.
-            The usual method on an image tag doesn't work, because the SVGs aren't a part of the DOM.
+            Pour utiliser les variables CSS de notre thème dans les icônes SVG, nous devons inclure les SVG 
+            dans la page un peu différemment. La méthode habituelle sur une balise d'image ne fonctionne pas, 
+            car les SVG ne font pas partie du DOM.
         </p>
 
         <pre><code>&lt;img src="/images/spinner.svg" alt="loading"&gt;</code></pre>
 
         <p>
-            Instead, we must include the full SVG directly with an <code>&lt;svg&gt;</code> tag or reference from an
-            <code>&lt;svg&gt;</code> tag using a <code>&lt;use&gt;</code> tag.
+            Au lieu de cela, nous devons inclure le SVG complet directement avec une balise ou une référence <code>&lt;svg&gt;</code> à partir d'u
+            <code>&lt;svg&gt;</code> tag utilisant une balise <code>&lt;use&gt;</code>.
         </p>
 
         <pre><code>&lt;svg&gt;
@@ -641,18 +646,13 @@ with &lt;pre&gt; and &lt;code&gt;</code></pre>
 &lt;/svg&gt;</code></pre>
 
         <p>
-            This ensures that the SVG is a part of the DOM, so will be able to use our CSS variables. If we use our
-            theme's CSS variables to style our SVGs we'll be able to use the same icons for different themes (light and
-            dark mode, for example).
+            Cela garantit que le SVG fait partie du DOM, afin de pouvoir utiliser nos variables CSS. Si nous utilisons les variables CSS de notre thème pour styliser nos SVG, nous pourrons utiliser les mêmes icônes pour différents thèmes (mode clair et sombre, par exemple).
         </p>
 
         <h2>Sprites</h2>
 
         <p>
-            This site uses <a href="./images/icons.svg">an SVG sprite file</a> to include many SVGs in one file. This
-            helps a bit with performance since the browser makes fewer requests to load icons and can help when changing
-            multiple icons at once. It's very cumbersome to reference SVG sprites in a CSS file, so we use separate
-            files for SVGs referenced from CSS.
+            Ce site utilise <a href="./images/icons.svg">un fichier sprite SVG</a> pour inclure de nombreux SVG dans un seul fichier. Cela aide un peu avec les performances puisque le navigateur fait moins de demandes de chargement d'icônes et peut aider lors de la modification de plusieurs icônes à la fois. Il est très lourd de référencer les sprites SVG dans un fichier CSS, nous utilisons donc des fichiers séparés pour les SVG référencés à partir de CSS.
         </p>
     </section>
 
@@ -660,29 +660,19 @@ with &lt;pre&gt; and &lt;code&gt;</code></pre>
         <h1>Favicon</h1>
 
         <p>
-            The starter uses an SVG favicon for modern browsers and provides an ico fallback for
-            <a href="https://caniuse.com/link-icon-svg">browsers without SVG favicon support</a> (like Safari and IE).
-            The <a href="favicon.svg">SVG favicon</a> uses a <code>@media (prefers-color-scheme: dark)</code> query to
-            serve a different color favicon depending on the user's color scheme. The
-            <a href="favicon.ico">ico favicon</a> consists of a dark icon on a light background so that it displays well
-            on any background color.
+            Le démarreur utilise un favicon SVG pour les navigateurs modernes et fournit un repli ico pour les navigateurs <a href="https://caniuse.com/link-icon-svg">sans prise en charge des favicon SVG</a> (comme Safari et IE). Le <a href="favicon.svg">SVG favicon</a> utilise une requête <code>@media (prefers-color-scheme : dark)</code> pour servir un favicon de couleur différente en fonction du schéma de couleurs de l'utilisateur. Le <a href="favicon.ico">ico favicon</a> se compose d'une icône sombre sur un fond clair afin qu'elle s'affiche bien sur n'importe quelle couleur d'arrière-plan.
         </p>
     </section>
 
     <section id="sidebar">
-        <h1>Sidebar</h1>
+        <h1>Barre latérale</h1>
 
         <p>
-            The starter's sidebar follows a pattern seen in many apps. On wide screens the sidebar is permanently
-            displayed on the left side of the page and the page's content is displayed to its right. On narrower screens
-            the sidebar is hidden by default, and is only displayed when a user clicks on the menu icon.
+            La barre latérale du démarreur suit un modèle vu dans de nombreuses applications. Sur les écrans larges, la barre latérale est affichée en permanence sur le côté gauche de la page et le contenu de la page est affiché à sa droite. Sur les écrans plus étroits, la barre latérale est masquée par défaut et ne s'affiche que lorsqu'un utilisateur clique sur l'icône du menu.
         </p>
 
         <p>
-            This layout is achieved with <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/grid">CSS Grid</a>,
-            in particular <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/grid-template-areas">grid template
-            areas</a>. The default layout defines areas for each of the top-level layout elements, placing the
-            <code>nav</code> in the <code>sidebar</code> area.
+            Cette mise en page est obtenue avec <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/grid">CSS Grid</a>, en particulier <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/grid-template-areas">zones de modèles de grille</a>. La mise en page par défaut définit les zones pour chacun des éléments de mise en page de niveau supérieur, en plaçant le <code>nav</code> dans la zone <code>sidebar</code>.
         </p>
 
         <pre><code>body {
@@ -697,8 +687,7 @@ nav {
 }</code></pre>
 
         <p>
-            On small screens, we omit the sidebar from the grid layout and position the sidebar absolutely, using the
-            <code>left</code> property to toggle its visibility.
+            Sur les petits écrans, nous omettons la barre latérale de la disposition de la grille et positionnons la barre latérale de manière absolue, en utilisant la propriété <code>left</code> pour basculer sa visibilité.
         </p>
 
         <pre><code>@media screen and (max-width: 800px) {
